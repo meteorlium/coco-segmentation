@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Segmentation Model Test</title>
+</head>
+
+<body>
+    <h1>Semantic Segmentation Model Test</h1>
+    Choose image to upload.
+    <br>
+    Allowed format: jpg.
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <!-- <input type="file" name="file" accept=".jpg, .JPG, .png, .PNG, .bmp" style="margin-top:20px;" /> -->
+        <input type="file" name="file" accept=".jpg" style="margin-top:20px;" />
+        <br>
+        <input type="submit" value="submit" class="button-new" style="margin-top:15px;" />
+    </form>
+    <!-- <h2>Upload image.</h2>
+    <img src="{{ url_for('static', filename= './upload_image.jpg') }}" height="400" alt="submit error" /> -->
+    <h2>Result of semantic segmentation.</h2>
+    <img src="{{ url_for('static', filename= './result.jpg') }}" height="400" alt="submit error" />
+    <!-- <h2>url</h2>
+
+    <body>
+        <a href="http://113.31.111.86:28015/static/prob.json" target="_blank" title="title">
+            Probability of each class [json file]</a>
+    </body>
+    <br>
+
+    <body>
+        <a href="http://113.31.111.86:28015/static/upload_image.jpg" target="_blank" title="title">upload
+            image [jpg]</a>
+    </body>
+    <br>
+
+    <body>
+        <a href="http://113.31.111.86:28015/static/mask.jpg" target="_blank" title="title">segmentation mask [jpg]</a>
+    </body>
+    <br>
+
+    <body>
+        <a href="http://113.31.111.86:28015/static/result.jpg" target="_blank" title="title">segmentation
+            result [jpg]</a>
+    </body>
+    <br>
+
+    <body>
+        <a href="http://113.31.111.86:28015/static/colortable.jpg" target="_blank" title="title">colortable [jpg]</a>
+    </body>
+    <br> -->
+</body>
+
+</html>

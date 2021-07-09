@@ -1,0 +1,84 @@
+model: ./save/checkpoints/best27.pth
+val mean IoU: 0.30256448523526763
+val mean acc: 0.8249061427324385
+id:  0, name:      background, IoU: 0.832207, acc: 0.955518
+id:  1, name:          person, IoU: 0.729912, acc: 0.842372
+id:  2, name:         bicycle, IoU: 0.353389, acc: 0.480827
+id:  3, name:             car, IoU: 0.355191, acc: 0.483009
+id:  4, name:      motorcycle, IoU: 0.517816, acc: 0.575021
+id:  5, name:        airplane, IoU: 0.525352, acc: 0.638118
+id:  6, name:             bus, IoU: 0.455214, acc: 0.525208
+id:  7, name:           train, IoU: 0.301038, acc: 0.317458
+id:  8, name:           truck, IoU: 0.203980, acc: 0.332369
+id:  9, name:            boat, IoU: 0.275181, acc: 0.331542
+id: 10, name:   traffic light, IoU: 0.365893, acc: 0.411816
+id: 11, name:    fire hydrant, IoU: 0.597875, acc: 0.694336
+id: 13, name:       stop sign, IoU: 0.748113, acc: 0.840040
+id: 14, name:   parking meter, IoU: 0.375376, acc: 0.469547
+id: 15, name:           bench, IoU: 0.237195, acc: 0.277871
+id: 16, name:            bird, IoU: 0.340447, acc: 0.425552
+id: 17, name:             cat, IoU: 0.566745, acc: 0.775993
+id: 18, name:             dog, IoU: 0.341819, acc: 0.483843
+id: 19, name:           horse, IoU: 0.500007, acc: 0.684439
+id: 20, name:           sheep, IoU: 0.448327, acc: 0.547362
+id: 21, name:             cow, IoU: 0.331529, acc: 0.406229
+id: 22, name:        elephant, IoU: 0.684906, acc: 0.756800
+id: 23, name:            bear, IoU: 0.464851, acc: 0.598819
+id: 24, name:           zebra, IoU: 0.814766, acc: 0.861828
+id: 25, name:         giraffe, IoU: 0.750389, acc: 0.841353
+id: 27, name:        backpack, IoU: 0.048036, acc: 0.058746
+id: 28, name:        umbrella, IoU: 0.405745, acc: 0.490675
+id: 31, name:         handbag, IoU: 0.002811, acc: 0.002818
+id: 32, name:             tie, IoU: 0.015790, acc: 0.020412
+id: 33, name:        suitcase, IoU: 0.242999, acc: 0.313407
+id: 34, name:         frisbee, IoU: 0.201718, acc: 0.302600
+id: 35, name:            skis, IoU: 0.046531, acc: 0.048649
+id: 36, name:       snowboard, IoU: 0.009148, acc: 0.009535
+id: 37, name:     sports ball, IoU: 0.100626, acc: 0.105720
+id: 38, name:            kite, IoU: 0.269038, acc: 0.335894
+id: 39, name:    baseball bat, IoU: 0.005296, acc: 0.005336
+id: 40, name:  baseball glove, IoU: 0.006771, acc: 0.006806
+id: 41, name:      skateboard, IoU: 0.129195, acc: 0.149681
+id: 42, name:       surfboard, IoU: 0.264898, acc: 0.312002
+id: 43, name:   tennis racket, IoU: 0.355929, acc: 0.411844
+id: 44, name:          bottle, IoU: 0.206040, acc: 0.261478
+id: 46, name:      wine glass, IoU: 0.274268, acc: 0.406195
+id: 47, name:             cup, IoU: 0.235766, acc: 0.314277
+id: 48, name:            fork, IoU: 0.047924, acc: 0.053847
+id: 49, name:           knife, IoU: 0.006985, acc: 0.007157
+id: 50, name:           spoon, IoU: 0.000286, acc: 0.000290
+id: 51, name:            bowl, IoU: 0.205207, acc: 0.272448
+id: 52, name:          banana, IoU: 0.429974, acc: 0.535277
+id: 53, name:           apple, IoU: 0.329066, acc: 0.459233
+id: 54, name:        sandwich, IoU: 0.221438, acc: 0.311958
+id: 55, name:          orange, IoU: 0.501920, acc: 0.651694
+id: 56, name:        broccoli, IoU: 0.436878, acc: 0.657430
+id: 57, name:          carrot, IoU: 0.280711, acc: 0.335458
+id: 58, name:         hot dog, IoU: 0.235359, acc: 0.323146
+id: 59, name:           pizza, IoU: 0.493415, acc: 0.615060
+id: 60, name:           donut, IoU: 0.245684, acc: 0.460234
+id: 61, name:            cake, IoU: 0.248116, acc: 0.359813
+id: 62, name:           chair, IoU: 0.156278, acc: 0.190538
+id: 63, name:           couch, IoU: 0.276625, acc: 0.362062
+id: 64, name:    potted plant, IoU: 0.140873, acc: 0.185681
+id: 65, name:             bed, IoU: 0.318265, acc: 0.412273
+id: 67, name:    dining table, IoU: 0.222889, acc: 0.289558
+id: 70, name:          toilet, IoU: 0.510610, acc: 0.615484
+id: 72, name:              tv, IoU: 0.387722, acc: 0.495533
+id: 73, name:          laptop, IoU: 0.400730, acc: 0.490065
+id: 74, name:           mouse, IoU: 0.144943, acc: 0.169438
+id: 75, name:          remote, IoU: 0.171227, acc: 0.220154
+id: 76, name:        keyboard, IoU: 0.470446, acc: 0.538300
+id: 77, name:      cell phone, IoU: 0.251941, acc: 0.296389
+id: 78, name:       microwave, IoU: 0.242086, acc: 0.284239
+id: 79, name:            oven, IoU: 0.286718, acc: 0.362197
+id: 80, name:         toaster, IoU: 0.000000, acc: 0.000000
+id: 81, name:            sink, IoU: 0.306306, acc: 0.355266
+id: 82, name:    refrigerator, IoU: 0.288242, acc: 0.337102
+id: 84, name:            book, IoU: 0.163202, acc: 0.183606
+id: 85, name:           clock, IoU: 0.464761, acc: 0.537400
+id: 86, name:            vase, IoU: 0.195698, acc: 0.268093
+id: 87, name:        scissors, IoU: 0.017819, acc: 0.019009
+id: 88, name:      teddy bear, IoU: 0.469257, acc: 0.584476
+id: 89, name:      hair drier, IoU: 0.000000, acc: 0.000000
+id: 90, name:      toothbrush, IoU: 0.000000, acc: 0.000000
