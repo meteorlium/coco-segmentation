@@ -117,6 +117,8 @@ focal loss：在交叉熵的基础上修改，增加了分类不准确的样本�
 
 运行`./test.py`，计算各个类别的IoU和最终的mIoU，输出结果保存在`./save/log_test.log`。并将所有类别的混淆矩阵（confusion matrix）可视化，图片保存在`./save/vision_confusion_matrix.jpg`。
 
+模型在val数据中的mean IoU为0.30，其中对人的IoU达到0.84。更多类别的IoU数据可在`./save/log_test.log`中查看。
+
 ### 对图片进行分割
 
 运行`./test_draw.py`，其中draw函数实现了对train和val分别取20个图片进行分割并将结果保存在`./save/draw`中，compute_time函数对100张图片进行分割并计算平均时间。
